@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+}
+
+input{
+    border-radius: 10px;
+    outline: none;
+}
+
+input:hover,
+input:focus{
+    border: 0px solid #7fd4ffaf;
+    box-shadow: 0px 0px 0px 7px #7fd4ffaf;
+}
+
+button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+button:hover{
+    letter-spacing: 3px;
+    background-color: #dc5d19;
+    box-shadow: #dc5d19 0px 7px 27px 0px;
+    border-color: #dc5d19;
+    outline: none;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+li,h1,ul{ 
+     display: inline;
+}
+
+li{
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+    letter-spacing: 2px;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.product{
+    display: flex;
+    gap: 1rem;
+}
+
+.product > div{
+    flex: 1;
+    transition: all 1s;
+    
+}
+
+.child1{
+    margin-left: 20px;
+}
+img{
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 400px;
+    width: 75%;
+}
+
+
+.product > div:hover{
+    flex: 3;
+}
+
+
+.About{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.Contact{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.call:hover{
+   font-size: 30px;
+   letter-spacing: 3px;
+}
